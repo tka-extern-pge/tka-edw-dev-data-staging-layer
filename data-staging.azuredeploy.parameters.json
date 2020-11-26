@@ -36,16 +36,16 @@
         "value": "northeurope"
       },
       "linkedVMTemplateURI": {
-        "value": "overwrite in pipeline with dynamic value"
+        "value": "https://raw.githubusercontent.com/tka-extern-pge/tka-edw-dev-data-staging-layer/main/resources/vm/VMtemplate.json?"
       },
       "linkedIRTemplate": {
-        "value": "overwrite in pipeline with dynamic value"
+        "value": "https://raw.githubusercontent.com/tka-extern-pge/tka-edw-dev-data-staging-layer/main/resources/adf-ir/IRtemplate.json?"
       },
       "linkedIRinstall": {
-        "value": "overwrite in pipeline with dynamic value"
+        "value": "https://raw.githubusercontent.com/tka-extern-pge/tka-edw-dev-data-staging-layer/main/resources/adf-ir/IRInstall.json?"
       },
       "linkedScript": {
-        "value": "overwrite in pipeline with dynamic value"
+        "value": "https://raw.githubusercontent.com/tka-extern-pge/tka-edw-dev-data-staging-layer/main/configurations/vpnGatewayInstall.ps1?"
       }
     }
   }
