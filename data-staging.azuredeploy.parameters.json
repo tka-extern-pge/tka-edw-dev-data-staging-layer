@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "existingDataFactoryName": {
+        "value":"df-ptxnfj76y67da"
+      },
+      "existingDataFactoryResourceGroup": {
+        "value":"tka-enterprisedatawarehouse-dev"
+      },
+      "existingDataFactoryVersion": {
+        "value":"V2"
+      },
+      "IntegrationRuntimeName": {
+        "value":"tka-uk-erp-ir"
+      },
+      "NodeCount":{
+        "value": 1
+      },
+      "adminUserName": {
+        "value": "TKAirT3st"
+      },
+      "adminPassword": {
+        "value": "tk4-sh4d0W"
+      },
+      "existingVirtualNetworkName":{
+        "value": "tka-dev-edw-vnet"
+      },
+      "existingVnetResourceGroupName":{
+        "value": "tka-enterprisedatawarehouse-dev"
+      },
+      "existingSubnetInYourVnet": {
+        "value": "tka-dev-edw-adf-data-staging-subnet"
+      },
+      "existingVnetLocation": {
+        "value": "northeurope"
+      },
+      "linkedVMTemplateURI": {
+        "value": "overwrite in pipeline with dynamic value"
+      },
+      "linkedIRTemplate": {
+        "value": "overwrite in pipeline with dynamic value"
+      },
+      "linkedIRinstall": {
+        "value": "overwrite in pipeline with dynamic value"
+      },
+      "linkedScript": {
+        "value": "overwrite in pipeline with dynamic value"
+      }
+    }
+  }
