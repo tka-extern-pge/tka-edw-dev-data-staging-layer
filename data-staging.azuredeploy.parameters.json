@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "existingDataFactoryName": {
-        "value":"df-ptxnfj76y67da"
+        "value":"edw-data-staging-df-iomol3afvksym"
       },
       "existingDataFactoryResourceGroup": {
-        "value":"tka-enterprisedatawarehouse-dev"
+        "value":"tka-dev-enterprise-datawarehouse"
       },
       "existingDataFactoryVersion": {
         "value":"V2"
@@ -27,7 +27,7 @@
         "value": "tka-dev-edw-vnet"
       },
       "existingVnetResourceGroupName":{
-        "value": "tka-enterprisedatawarehouse-dev"
+        "value": "tka-dev-enterprise-datawarehouse"
       },
       "existingSubnetInYourVnet": {
         "value": "tka-dev-edw-adf-data-staging-subnet"
