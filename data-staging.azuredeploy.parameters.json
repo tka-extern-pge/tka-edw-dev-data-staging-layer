@@ -30,7 +30,7 @@
         "value": "tka-dev-enterprise-datawarehouse"
       },
       "existingSubnetInYourVnet": {
-        "value": "tka-dev-edw-adf-data-staging-subnet"
+        "value": "GatewaySubnet"
       },
       "existingVnetLocation": {
         "value": "northeurope"
