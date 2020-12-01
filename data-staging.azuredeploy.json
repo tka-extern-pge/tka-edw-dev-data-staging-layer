@@ -260,9 +260,6 @@
             },
             "existingVnetLocation": {
               "value": "[parameters('existingVnetLocation')]"
-            },
-            "scriptUrl": {
-              "value": "[variables('scriptURL')]"
             }
           }
         }
